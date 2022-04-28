@@ -1,0 +1,19 @@
+.home_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: auto;
+    height: 92vh;
+    /* border: 1px solid orange; */
+    background-image: url(../../images/Bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+@media all and (max-width: 570px) {
+    .home_container {
+        display: block;
+    }
+}

@@ -1,0 +1,33 @@
+.image_details {
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    margin: 0 0.5rem;
+    padding-top: 1rem;
+    width: 80%;
+    height: 15%;
+    background-color: white;
+}
+
+.image_details img {
+    width: 25%;
+    margin: 0 auto;
+    display: block;
+}
+
+.image_details h3 {
+    text-align: center;
+}
+
+@media all and (max-width: 570px) {
+    .image_details {
+        margin: 1rem auto;
+        padding-top: 1rem;
+        width: 70%;
+        height: 17vh;
+        border: 1px solid cyan;
+    }
+
+    .image_details:nth-last-child(1) {
+        margin-bottom: 2rem;
+    }
+}

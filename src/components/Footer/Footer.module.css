@@ -1,0 +1,15 @@
+.footer_container {
+    width: auto;
+    height: 5rem;
+    background-color: rgb(29, 53, 54);
+    color: rgb(136, 126, 126);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.link {
+    color: rgb(165, 193, 218);
+    text-decoration: none;
+}
