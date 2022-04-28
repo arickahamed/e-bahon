@@ -3,7 +3,7 @@ import Byke from '../images/byke.png';
 import Car from '../images/car.png';
 import Train from '../images/train.png';
 
-export const images = [
+export const details = [
     {img: Bus, name: "BUS"},
     {img: Byke, name: "BYKE"},
     {img: Car, name: "CAR"},

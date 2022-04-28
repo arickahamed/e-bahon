@@ -6,7 +6,7 @@
     width: auto;
     height: 92vh;
     /* border: 1px solid orange; */
-    background-image: url(../../images/Bg.png);
+    background-image: url("../assets/images/Bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
