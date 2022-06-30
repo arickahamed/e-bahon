@@ -1,8 +1,13 @@
 .header_container {
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     background-color: cadetblue;
+}
+
+.user_name {
+    color: rgb(247, 210, 2);
 }
 
 .header_nav ul {

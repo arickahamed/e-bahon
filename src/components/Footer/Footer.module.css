@@ -1,12 +1,12 @@
 .footer_container {
-    width: auto;
+    width: 100vw;
     height: 5rem;
     background-color: rgb(29, 53, 54);
     color: rgb(136, 126, 126);
+    text-align: center;
     overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    position: absolute;
+    bottom: 0;
 }
 
 .link {

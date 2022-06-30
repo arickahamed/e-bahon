@@ -1,17 +1,19 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { FaTimes } from 'react-icons/fa';
 import { IoIosMenu } from 'react-icons/io';
 import { Link } from 'react-router-dom';
+import { UserAuth } from '../../context/GlobalContext';
 import styles from './Header.module.css';
 
 const Header = () => {
     const [hamMenu, setHamMenu] = useState(false);
-    // console.log(hamMenu);
+    const {user} = UserAuth();
     return (
         <div className={styles.header_container}>
             <div className={styles.header_logo}>
                 <h3>e-bahon</h3>
             </div>
+            {user && <h3 className={styles.user_name}>{user.name}</h3> }
             <nav className={`${styles.header_nav} ${hamMenu ? styles.show_ham_menu : ""}`}>
                 <ul>
                     <li>

@@ -1,5 +1,4 @@
 .image_details {
-    /* border: 1px solid red; */
     border-radius: 5px;
     margin: 0 0.5rem;
     padding-top: 1rem;
@@ -25,9 +24,5 @@
         width: 70%;
         height: 17vh;
         border: 1px solid cyan;
-    }
-
-    .image_details:nth-last-child(1) {
-        margin-bottom: 2rem;
     }
 }

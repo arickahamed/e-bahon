@@ -1,4 +1,32 @@
 .login_container {
     height: 85vh;
-    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_form {
+    width: 80%;
+    margin: 1rem auto;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin: 0.5rem auto;
+    padding: 0.5rem 1.3rem;
+    background-color: rgb(53, 126, 128);
+    color: white;
+}
+
+.h3 {
+    border: 1px solid rgb(53, 126, 128);
+    border-radius: 8px;
+    padding: 0.3rem 1rem;
+    cursor: pointer;
 }
